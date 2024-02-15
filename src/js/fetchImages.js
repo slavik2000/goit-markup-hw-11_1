@@ -1,7 +1,7 @@
 const BASE_URL = 'https://pixabay.com/api/';
-const API_KEY = '37972717-70d116d5c7dba3fcb6f3ce7e2';
+const API_KEY = '42192566-3aa66b6addb563a411dc58658';
 const PER_PAGE = 40;
-const TOTAL_SERVICE = 500;      // лимит от сервиса Pixabay на бесплатный тариф
+// const TOTAL_SERVICE = 500;      
 
 async function fetchImages(inputValue, pageNumber) {
     const resp = await fetch(
